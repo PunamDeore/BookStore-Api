@@ -1,0 +1,13 @@
+<mxfile host="Electron" modified="2024-09-09T23:15:53.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="sbRhfrA3ip24kpES-JGq" version="24.4.8" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BWQETe9J5wM8l1sVdFaf-1" value="+----------------+&#xa;|     User       |&#xa;+----------------+&#xa;| PK  id         |&#xa;|     name       |&#xa;|     email      |&#xa;|     password   |&#xa;|     type       |&#xa;|     category   |&#xa;+----------------+&#xa;       |&#xa;       | 1&#xa;       |&#xa;       |&#xa;       |&#xa;       | *&#xa;+----------------+&#xa;|    Order       |&#xa;+----------------+&#xa;| PK  id         |&#xa;| FK  user_id    |&#xa;|     order_date |&#xa;|     total_amount|&#xa;+----------------+&#xa;       |&#xa;       | 1&#xa;       |&#xa;       |&#xa;       |&#xa;       | *&#xa;+----------------+&#xa;|  OrderItem     |&#xa;+----------------+&#xa;| PK  id         |&#xa;| FK  order_id   |&#xa;| FK  book_id    |&#xa;|     quantity   |&#xa;|     price      |&#xa;+----------------+&#xa;       |&#xa;       | *&#xa;       |&#xa;       |&#xa;       |&#xa;       | 1&#xa;+----------------+&#xa;|    Book        |&#xa;+----------------+&#xa;| PK  id         |&#xa;| FK  author_id  |&#xa;|     title      |&#xa;|     category   |&#xa;|     price      |&#xa;|     isbn       |&#xa;|     published_date |&#xa;+----------------+&#xa;       |&#xa;       | *&#xa;       |&#xa;       |&#xa;       |&#xa;       | 1&#xa;+----------------+&#xa;|   Author       |&#xa;+----------------+&#xa;| PK  id         |&#xa;|     name       |&#xa;|     bio        |&#xa;+----------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="170" height="1020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
